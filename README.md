@@ -1,7 +1,6 @@
 1.Explicar y ejemplificar composición y agregación
 
-Agregación: 
-
+Agregación:
 Se le llama agregación a un tipo de asociación que indica que una clase es parte de otra clase. Los componentes pueden ser compartidos por varios compuestos (de la misma asociación de agregación o de varias asociaciones de agregación distintas). La destrucción del compuesto no conlleva la destrucción de los componentes. La agregación se representa con un rombo de color blanco.
 
 Composición: 
@@ -23,5 +22,5 @@ En el diagrama existe la clase Persona(clase padre) que tiene como atributos nom
 Las clases Obrero, Docente y Doctor(clases hijas) que tienen además de los atributos heredados de la clase padre, tienen los atributos de precioHora y cantidadHora. Y como operaciones tienen calcularSueldo().
 La función darInformación daría el nombre de la persona y la función calcularSueldo daría el total a cobrar por cada persona según sus horas trabajadas y lo que le paguen por dichas horas.
 
-
+###
 4. Codificar el ejemplo del punto 3 con Javascript.
