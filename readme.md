@@ -31,7 +31,7 @@ La función darInformación daría el nombre de la persona y la función calcula
 ---
 
 ## 4.Codificar el ejemplo del punto 3 con Javascript.
-
+```
 class Persona {
     constructor(nombre,){
         this.nombre = nombre;    
@@ -106,4 +106,5 @@ console.info("La persona "+persona1.darInformacion(),"cobrará $" +persona1.calc
 console.info("La persona "+persona2.darInformacion(),"cobrará $" +persona2.calcularSueldo());
 console.info("La persona "+persona3.darInformacion(),"cobrará $" +persona3.calcularSueldo());
 
+```
 
